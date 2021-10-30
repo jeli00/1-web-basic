@@ -1,0 +1,90 @@
+.container	{
+	width:1024px;
+	margin: auto;
+	border: 1px;
+}
+
+.fixed-header {
+	width: 100%;
+	height: 56px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+
+.navigation ul li{
+	padding: 20px;
+	display: inline-block;
+	font-color:white;
+}
+
+.navigation	li a{
+	color: white;
+}
+
+.navigation	{
+	background: navy;
+	border-radius: 25px;
+}
+
+.content-top{
+	margin-bottom: 20px;
+	margin-top: 20px; 
+}
+
+.content-top-item{
+	float: left;
+	width: 20%;
+}
+
+.content-top-text{
+	font-size:14px;
+}
+
+.content-left{
+	float: left;
+	width: 60%;
+}
+
+.content-right{
+	float: left;
+	width: 40%;
+}
+
+.fitur-img-wrapper{
+	height:350px;
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+}
+
+.fitur-img{
+	height: 350px;
+	background-image: url(image/topik.png);
+	background-size: cover;
+	transition: all .5s;
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+}
+
+.fitur-img:hover, .fitur-img:focus{
+	transform: scale(1.2);
+}
+
+.fitur-text{
+	height: 80px;
+	background-color: skyblue;
+}
+
+.fitur{
+	margin-bottom: 32px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.fitur-title-wrapper{
+	position: absolute;
+	bottom: 0;
+}
